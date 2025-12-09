@@ -1,8 +1,9 @@
 streamlit
-torch
 transformers
-PyPDF2
-python-docx
+# 指定安裝 CPU 版本的 PyTorch，避免下載巨大的 GPU 驅動
+torch --index-url https://download.pytorch.org/whl/cpu
+numpy
 pandas
-altair==4.2.2
-protobuf==3.20.3
+altair
+python-docx
+pypdf2
