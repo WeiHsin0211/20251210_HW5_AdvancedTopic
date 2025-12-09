@@ -1,0 +1,8 @@
+streamlit
+torch
+transformers
+PyPDF2
+python-docx
+pandas
+altair==4.2.2
+protobuf==3.20.3
